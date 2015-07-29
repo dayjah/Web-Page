@@ -1,0 +1,63 @@
+/*Color Variables*/
+/*Size Percentages*/
+/*Fonts*/
+/* line 2, ../scss/style.scss */
+body {
+  background: url("../../resources/images/Background Images/LandingPageBackgroundOverlaySmaller.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
+/* line 9, ../scss/style.scss */
+#landing {
+  text-align: center;
+  font-family: Arvo;
+  padding-top: 205px;
+  margin-bottom: 80px;
+}
+/* line 14, ../scss/style.scss */
+#landing h2 {
+  font-size: 35px;
+  color: #cececf;
+  padding-bottom: 10px;
+}
+/* line 19, ../scss/style.scss */
+#landing h3 {
+  font-size: 27px;
+  color: #bf963d;
+  padding-bottom: 500px;
+}
+/* line 24, ../scss/style.scss */
+#landing p {
+  font-family: Quicksand;
+  color: #cececf;
+  font-size: 20px;
+}
+
+/* line 31, ../scss/style.scss */
+#content section {
+  text-align: center;
+  height: 800px;
+  font-family: Quicksand;
+  padding-top: 60px;
+}
+/* line 36, ../scss/style.scss */
+#content section h2 {
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* line 44, ../scss/style.scss */
+#aboutMe {
+  background-color: #111111;
+}
+/* line 46, ../scss/style.scss */
+#aboutMe h2 {
+  width: 400px;
+  color: #30c6cf;
+  border-bottom: 1px solid #30c6cf;
+}

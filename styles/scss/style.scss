@@ -1,0 +1,54 @@
+@import 'modules/variables';
+body {
+    background: url('../../resources/images/Background Images/LandingPageBackgroundOverlaySmaller.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-attachment: fixed;
+}
+#landing {
+    text-align: center;
+    font-family: $textArvo;
+    padding-top: 205px;
+    margin-bottom: 80px;
+    h2 {
+        font-size: 35px;
+        color: $primaryTextColor;
+        padding-bottom: 10px;
+    }
+    h3 {
+        font-size: 27px;
+        color: $textColorTan;
+        padding-bottom: 500px;
+    }
+    p {
+        font-family: $textQuicksand;
+        color: $primaryTextColor;
+        font-size: 20px;
+    }
+}
+#content {
+    section {
+        text-align: center;
+        height: $sectionMinHeight;
+        font-family: $textQuicksand;
+        padding-top: 60px;
+        h2 {
+            text-transform: uppercase;
+            font-weight: 500;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        .underConstruction{
+            
+        }
+    }
+}
+#aboutMe {
+    background-color: $backgroundColor;
+    h2{
+        width: 400px;
+        color: $textColorBlue;
+        border-bottom: 1px solid #30c6cf;
+    }
+}

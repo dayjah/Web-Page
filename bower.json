@@ -1,0 +1,12 @@
+{
+    "name": "Webpage",
+    "version": "1.0.0",
+    "dependencies": {
+        "bootstrap": "latest",
+        "font-awesome": "latest",
+        "jquery": "latest",
+        "modernizr": "latest",
+        "handlebars": "latest",
+        "jquery-ui": "latest"
+    }
+}
