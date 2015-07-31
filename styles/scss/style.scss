@@ -9,7 +9,7 @@ body {
 #landing {
     text-align: center;
     font-family: $textArvo;
-    padding-top: 205px;
+    padding-top: 15%;
     margin-bottom: 80px;
     h2 {
         font-size: 35px;
@@ -29,8 +29,9 @@ body {
 }
 #content {
     section {
+        background-color: $backgroundColor;
         text-align: center;
-        height: $sectionMinHeight;
+        height: auto;
         font-family: $textQuicksand;
         padding-top: 60px;
         h2 {
@@ -39,13 +40,18 @@ body {
             margin-right: auto;
             margin-left: auto;
         }
+        ul{
+            list-style-type: none;
+            padding-left: 0px;
+            text-align: center;
+        }
         .underConstruction{
             
         }
     }
 }
 #aboutMe {
-    background-color: $backgroundColor;
+    
     h2{
         width: 400px;
         color: $textColorBlue;

@@ -14,7 +14,7 @@ body {
 #landing {
   text-align: center;
   font-family: Arvo;
-  padding-top: 205px;
+  padding-top: 15%;
   margin-bottom: 80px;
 }
 /* line 14, ../scss/style.scss */
@@ -38,24 +38,27 @@ body {
 
 /* line 31, ../scss/style.scss */
 #content section {
+  background-color: #111111;
   text-align: center;
-  height: 800px;
+  height: auto;
   font-family: Quicksand;
   padding-top: 60px;
 }
-/* line 36, ../scss/style.scss */
+/* line 37, ../scss/style.scss */
 #content section h2 {
   text-transform: uppercase;
   font-weight: 500;
   margin-right: auto;
   margin-left: auto;
 }
-
-/* line 44, ../scss/style.scss */
-#aboutMe {
-  background-color: #111111;
+/* line 43, ../scss/style.scss */
+#content section ul {
+  list-style-type: none;
+  padding-left: 0px;
+  text-align: center;
 }
-/* line 46, ../scss/style.scss */
+
+/* line 55, ../scss/style.scss */
 #aboutMe h2 {
   width: 400px;
   color: #30c6cf;
