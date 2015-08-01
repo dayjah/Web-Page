@@ -1,7 +1,7 @@
 /*Color Variables*/
 /*Size Percentages*/
 /*Fonts*/
-/* line 2, ../scss/style.scss */
+/* line 3, ../scss/style.scss */
 body {
   background: url("../../resources/images/Background Images/LandingPageBackgroundOverlaySmaller.jpg");
   background-size: cover;
@@ -10,57 +10,191 @@ body {
   background-attachment: fixed;
 }
 
-/* line 9, ../scss/style.scss */
+/* line 10, ../scss/style.scss */
 #landing {
   text-align: center;
   font-family: Arvo;
   padding-top: 15%;
   margin-bottom: 80px;
 }
-/* line 14, ../scss/style.scss */
+/* line 15, ../scss/style.scss */
 #landing h2 {
   font-size: 35px;
   color: #cececf;
   padding-bottom: 10px;
 }
-/* line 19, ../scss/style.scss */
+/* line 20, ../scss/style.scss */
 #landing h3 {
   font-size: 27px;
   color: #bf963d;
   padding-bottom: 500px;
 }
-/* line 24, ../scss/style.scss */
+/* line 25, ../scss/style.scss */
 #landing p {
   font-family: Quicksand;
   color: #cececf;
   font-size: 20px;
 }
 
-/* line 31, ../scss/style.scss */
+/* line 32, ../scss/style.scss */
 #content section {
   background-color: #111111;
   text-align: center;
   height: auto;
+  margin-bottom: 50px;
   font-family: Quicksand;
   padding-top: 60px;
+  min-height: 600px;
 }
-/* line 37, ../scss/style.scss */
+/* line 40, ../scss/style.scss */
 #content section h2 {
   text-transform: uppercase;
   font-weight: 500;
   margin-right: auto;
   margin-left: auto;
+  border-bottom: 1px solid;
+  width: 400px;
 }
-/* line 43, ../scss/style.scss */
+/* line 48, ../scss/style.scss */
 #content section ul {
   list-style-type: none;
   padding-left: 0px;
   text-align: center;
+  color: #cececf;
+}
+/* line 54, ../scss/style.scss */
+#content section svg {
+  fill: #cccccc;
+}
+/* line 57, ../scss/style.scss */
+#content section input,
+#content section textarea {
+  display: block;
+  border: 1px solid #cececf;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  min-width: 270px;
+  background-color: transparent;
+  color: #cececf;
+  outline: none;
+}
+/* line 69, ../scss/style.scss */
+#content section input.error,
+#content section textarea.error {
+  color: #e84646;
+  border-color: #e84646;
+}
+/* line 71, ../scss/style.scss */
+#content section input.error::-webkit-input-placeholder,
+#content section textarea.error::-webkit-input-placeholder {
+  color: #e84646;
+  border-color: #e84646;
+}
+/* line 74, ../scss/style.scss */
+#content section input.error:-moz-placeholder,
+#content section textarea.error:-moz-placeholder {
+  color: #e84646;
+  border-color: #e84646;
+}
+/* line 77, ../scss/style.scss */
+#content section input.error::-moz-placeholder,
+#content section textarea.error::-moz-placeholder {
+  color: #e84646;
+  border-color: #e84646;
+}
+/* line 80, ../scss/style.scss */
+#content section input.error:-ms-input-placeholder,
+#content section textarea.error:-ms-input-placeholder {
+  color: #e84646;
+  border-color: #e84646;
+}
+/* line 84, ../scss/style.scss */
+#content section input.success,
+#content section textarea.success {
+  color: #28b54c;
+  border-color: #28b54c;
+}
+/* line 86, ../scss/style.scss */
+#content section input.success::-webkit-input-placeholder,
+#content section textarea.success::-webkit-input-placeholder {
+  color: #28b54c;
+  border-color: #28b54c;
+}
+/* line 89, ../scss/style.scss */
+#content section input.success:-moz-placeholder,
+#content section textarea.success:-moz-placeholder {
+  color: #28b54c;
+  border-color: #28b54c;
+}
+/* line 92, ../scss/style.scss */
+#content section input.success::-moz-placeholder,
+#content section textarea.success::-moz-placeholder {
+  color: #28b54c;
+  border-color: #28b54c;
+}
+/* line 95, ../scss/style.scss */
+#content section input.success:-ms-input-placeholder,
+#content section textarea.success:-ms-input-placeholder {
+  color: #28b54c;
+  border-color: #28b54c;
+}
+/* line 100, ../scss/style.scss */
+#content section input:focus::-webkit-input-placeholder,
+#content section textarea:focus::-webkit-input-placeholder {
+  opacity: 0;
+}
+/* line 103, ../scss/style.scss */
+#content section input:focus:-moz-placeholder,
+#content section textarea:focus:-moz-placeholder {
+  opacity: 0;
+}
+/* line 106, ../scss/style.scss */
+#content section input:focus::-moz-placeholder,
+#content section textarea:focus::-moz-placeholder {
+  opacity: 0;
+}
+/* line 109, ../scss/style.scss */
+#content section input:focus:-ms-input-placeholder,
+#content section textarea:focus:-ms-input-placeholder {
+  opacity: 0;
 }
 
-/* line 55, ../scss/style.scss */
+/* line 117, ../scss/style.scss */
 #aboutMe h2 {
-  width: 400px;
   color: #30c6cf;
-  border-bottom: 1px solid #30c6cf;
+  border-color: #30c6cf;
+}
+
+/* line 123, ../scss/style.scss */
+#skills h2 {
+  color: #28b54c;
+  border-color: #28b54c;
+}
+
+/* line 129, ../scss/style.scss */
+#social h2 {
+  color: #30c6cf;
+  border-color: #30c6cf;
+}
+
+/* line 135, ../scss/style.scss */
+#projects h2 {
+  color: #28b54c;
+  border-color: #28b54c;
+}
+
+/* line 140, ../scss/style.scss */
+#contact {
+  background: url("../../resources/images/Background%2520Images/Meeting.jpg") !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+}
+/* line 146, ../scss/style.scss */
+#contact h2 {
+  color: #bf963d;
+  border-color: #bf963d;
 }

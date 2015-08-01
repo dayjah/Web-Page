@@ -1,0 +1,9 @@
+@mixin error{
+    color: $errorColor;
+    border-color: $errorColor;
+}
+
+@mixin success{
+    color: $successColor;
+    border-color: $successColor;
+}

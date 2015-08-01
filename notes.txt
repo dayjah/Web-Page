@@ -1,0 +1,5 @@
+Charlie, my conclusions after researching calendars are the following: 1. Google Calendar is an optimal solution because it allows CMS usability and editing for the laymen. The caveat here is that there are traffic limitations with a calendar, so some kind of script would need to be written to cache the data on a schedule. 2. To me, an ideal implementation is something like this: – The XML feed is decoded/processed by some kind of server side implementation like PHP. – That data is piped in to a 7 column 4 row table which represents a month’s worth of days. – Day information is accessed by clicking or floating the cursor over the focus’ed day. 3. Customization would extend beyond what is possible with embedded iframe calendars, so that the calendar could be really small, and/or styled to better match the look & feel of your site for tighter integration. I’ll look in to some of the resources I found, but basically you’ll want to search for documentation that has to do with: – PHP to parse XML – Parsing Google Calendar XML feeds – How to format tabular/XML data in to a calendar like format
+
+
+
+-Background image on contact form not loading

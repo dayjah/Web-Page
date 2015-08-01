@@ -1,4 +1,5 @@
 @import 'modules/variables';
+@import 'modules/mixins';
 body {
     background: url('../../resources/images/Background Images/LandingPageBackgroundOverlaySmaller.jpg');
     background-size: cover;
@@ -13,17 +14,17 @@ body {
     margin-bottom: 80px;
     h2 {
         font-size: 35px;
-        color: $primaryTextColor;
+        color: $primaryColor;
         padding-bottom: 10px;
     }
     h3 {
         font-size: 27px;
-        color: $textColorTan;
+        color: $colorTan;
         padding-bottom: 500px;
     }
     p {
         font-family: $textQuicksand;
-        color: $primaryTextColor;
+        color: $primaryColor;
         font-size: 20px;
     }
 }
@@ -32,29 +33,114 @@ body {
         background-color: $backgroundColor;
         text-align: center;
         height: auto;
+        margin-bottom: 50px;
         font-family: $textQuicksand;
         padding-top: 60px;
+        min-height: 600px;
         h2 {
             text-transform: uppercase;
             font-weight: 500;
             margin-right: auto;
             margin-left: auto;
+            border-bottom: 1px solid;
+            width: 400px;
         }
-        ul{
+        ul {
             list-style-type: none;
             padding-left: 0px;
             text-align: center;
+            color: #cececf;
         }
-        .underConstruction{
-            
+        svg {
+            fill: #cccccc;
+        }
+        input,
+        textarea {
+            display: block;
+            border: 1px solid $primaryColor;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 10px;
+            margin-bottom: 20px;
+            min-width: 270px;
+            background-color: transparent;
+            color: $primaryColor;
+            outline: none;
+            &.error {
+                @include error;
+                &::-webkit-input-placeholder {
+                    @include error;
+                }
+                &:-moz-placeholder {
+                    @include error;
+                }
+                &::-moz-placeholder {
+                    @include error;
+                }
+                &:-ms-input-placeholder {
+                    @include error;
+                }
+            }
+            &.success {
+                @include success;
+                &::-webkit-input-placeholder {
+                    @include success;
+                }
+                &:-moz-placeholder {
+                    @include success;
+                }
+                &::-moz-placeholder {
+                    @include success;
+                }
+                &:-ms-input-placeholder {
+                    @include success;
+                }
+            }
+            &:focus {
+                &::-webkit-input-placeholder {
+                    opacity: 0;
+                }
+                &:-moz-placeholder {
+                    opacity: 0;
+                }
+                &::-moz-placeholder {
+                    opacity: 0;
+                }
+                &:-ms-input-placeholder {
+                    opacity: 0;
+                }
+            }
         }
     }
 }
 #aboutMe {
+    h2 {
+        color: $colorBlue;
+        border-color: $colorBlue;
+    }
+}
+#skills {
+    h2 {
+        color: $colorGreen;
+        border-color: $colorGreen;
+    }
+}
+#social {
+    h2 {
+        color: $colorBlue;
+        border-color: $colorBlue;
+    }
+}
+#projects {
+    h2 {
+        color: $colorGreen;
+        border-color: $colorGreen;
+    }
+}
+#contact {
     
-    h2{
-        width: 400px;
-        color: $textColorBlue;
-        border-bottom: 1px solid #30c6cf;
+    h2 {
+        color: $colorTan;
+        border-color: $colorTan;
     }
 }
