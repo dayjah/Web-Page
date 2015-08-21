@@ -1,0 +1,380 @@
+/*Color Variables*/
+/*Sizes*/
+/*Fonts*/
+/* line 3, ../scss/style.scss */
+body {
+  background: url("../../resources/images/Background Images/LandingPageBackgroundOverlaySmaller.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+}
+
+/* line 10, ../scss/style.scss */
+#landing {
+  text-align: center;
+  font-family: "Arvo", serif;
+  padding-top: 10%;
+  margin-bottom: 80px;
+}
+/* line 15, ../scss/style.scss */
+#landing h2 {
+  font-size: 35px;
+  color: #cececf;
+  padding-bottom: 10px;
+}
+/* line 20, ../scss/style.scss */
+#landing h3 {
+  font-size: 27px;
+  color: #bf963d;
+  padding-bottom: 500px;
+}
+/* line 25, ../scss/style.scss */
+#landing p {
+  font-family: "Quicksand", sans-serif;
+  color: #cececf;
+  font-size: 20px;
+}
+
+/* line 32, ../scss/style.scss */
+#content section {
+  background-color: #111111;
+  text-align: center;
+  height: auto;
+  font-family: "Quicksand", sans-serif;
+  min-height: 500px;
+}
+/* line 38, ../scss/style.scss */
+#content section > div:first-of-type {
+  padding: 100px 0px;
+}
+/* line 41, ../scss/style.scss */
+#content section h3 {
+  color: #cececf;
+}
+/* line 44, ../scss/style.scss */
+#content section h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-right: auto;
+  margin-left: auto;
+  border-bottom: 2px solid;
+  width: 400px;
+  font-size: 40px;
+}
+@media screen and (max-width: 500px) {
+  /* line 44, ../scss/style.scss */
+  #content section h2 {
+    width: auto;
+  }
+}
+/* line 57, ../scss/style.scss */
+#content section ul {
+  list-style-type: none;
+  padding-left: 0px;
+  text-align: center;
+  margin-bottom: 0px;
+  color: #cececf;
+}
+/* line 64, ../scss/style.scss */
+#content section svg {
+  fill: #cccccc;
+  width: 30px;
+}
+/* line 68, ../scss/style.scss */
+#content section input[type="text"],
+#content section textarea {
+  display: block;
+  border: 1px solid #cececf;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  min-width: 350px;
+  min-height: 40px;
+  font-size: 16px;
+  background-color: transparent;
+  color: #cececf;
+  outline: none;
+}
+/* line 82, ../scss/style.scss */
+#content section input[type="text"].error,
+#content section textarea.error {
+  color: #e84646;
+  border-color: #e84646;
+}
+/* line 84, ../scss/style.scss */
+#content section input[type="text"].error::-webkit-input-placeholder,
+#content section textarea.error::-webkit-input-placeholder {
+  color: #e84646;
+  border-color: #e84646;
+}
+/* line 87, ../scss/style.scss */
+#content section input[type="text"].error:-moz-placeholder,
+#content section textarea.error:-moz-placeholder {
+  color: #e84646;
+  border-color: #e84646;
+}
+/* line 90, ../scss/style.scss */
+#content section input[type="text"].error::-moz-placeholder,
+#content section textarea.error::-moz-placeholder {
+  color: #e84646;
+  border-color: #e84646;
+}
+/* line 93, ../scss/style.scss */
+#content section input[type="text"].error:-ms-input-placeholder,
+#content section textarea.error:-ms-input-placeholder {
+  color: #e84646;
+  border-color: #e84646;
+}
+/* line 97, ../scss/style.scss */
+#content section input[type="text"].success,
+#content section textarea.success {
+  color: #28b54c;
+  border-color: #28b54c;
+}
+/* line 99, ../scss/style.scss */
+#content section input[type="text"].success::-webkit-input-placeholder,
+#content section textarea.success::-webkit-input-placeholder {
+  color: #28b54c;
+  border-color: #28b54c;
+}
+/* line 102, ../scss/style.scss */
+#content section input[type="text"].success:-moz-placeholder,
+#content section textarea.success:-moz-placeholder {
+  color: #28b54c;
+  border-color: #28b54c;
+}
+/* line 105, ../scss/style.scss */
+#content section input[type="text"].success::-moz-placeholder,
+#content section textarea.success::-moz-placeholder {
+  color: #28b54c;
+  border-color: #28b54c;
+}
+/* line 108, ../scss/style.scss */
+#content section input[type="text"].success:-ms-input-placeholder,
+#content section textarea.success:-ms-input-placeholder {
+  color: #28b54c;
+  border-color: #28b54c;
+}
+/* line 113, ../scss/style.scss */
+#content section input[type="text"]:focus::-webkit-input-placeholder,
+#content section textarea:focus::-webkit-input-placeholder {
+  opacity: 0;
+}
+/* line 116, ../scss/style.scss */
+#content section input[type="text"]:focus:-moz-placeholder,
+#content section textarea:focus:-moz-placeholder {
+  opacity: 0;
+}
+/* line 119, ../scss/style.scss */
+#content section input[type="text"]:focus::-moz-placeholder,
+#content section textarea:focus::-moz-placeholder {
+  opacity: 0;
+}
+/* line 122, ../scss/style.scss */
+#content section input[type="text"]:focus:-ms-input-placeholder,
+#content section textarea:focus:-ms-input-placeholder {
+  opacity: 0;
+}
+@media screen and (max-width: 768px) {
+  /* line 68, ../scss/style.scss */
+  #content section input[type="text"],
+  #content section textarea {
+    width: 90%;
+    min-width: 0px;
+  }
+}
+
+/* line 134, ../scss/style.scss */
+#aboutMe h2 {
+  color: #30c6cf;
+  border-color: #30c6cf;
+}
+/* line 138, ../scss/style.scss */
+#aboutMe p {
+  margin: 0 0 0px;
+  padding-bottom: 10px;
+}
+/* line 142, ../scss/style.scss */
+#aboutMe ul {
+  text-align: center;
+  width: auto;
+}
+/* line 146, ../scss/style.scss */
+#aboutMe li {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  max-width: 255px;
+  border-bottom: 1px solid #5E5E5E;
+  border-left: 1px solid #5E5E5E;
+  border-right: 1px solid #5E5E5E;
+  margin-bottom: 50px;
+}
+/* line 155, ../scss/style.scss */
+#aboutMe li p {
+  color: #30c6cf;
+  text-decoration: underline;
+}
+/* line 159, ../scss/style.scss */
+#aboutMe li p + p {
+  color: #cececf;
+  text-decoration: none;
+}
+
+/* line 166, ../scss/style.scss */
+#skills .row {
+  position: relative;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 35px;
+}
+@media screen and (max-width: 1210px) {
+  /* line 166, ../scss/style.scss */
+  #skills .row {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+/* line 176, ../scss/style.scss */
+#skills a {
+  color: #28b54c;
+  cursor: pointer;
+}
+/* line 180, ../scss/style.scss */
+#skills p {
+  text-align: left;
+  font-size: 16px;
+  margin-left: 122px;
+  color: #cececf;
+}
+@media screen and (max-width: 999px) {
+  /* line 180, ../scss/style.scss */
+  #skills p {
+    text-align: center;
+    margin-left: 0px;
+  }
+}
+/* line 190, ../scss/style.scss */
+#skills h2 {
+  color: #28b54c;
+  border-color: #28b54c;
+}
+/* line 195, ../scss/style.scss */
+#skills div.templateContainer h3 {
+  color: #28b54c;
+  border-bottom: 1px solid #28b54c;
+  padding-bottom: 2px;
+}
+/* line 200, ../scss/style.scss */
+#skills div.templateContainer div {
+  min-width: 310px;
+  display: inline-block;
+  text-align: left;
+  min-height: 275px;
+}
+@media screen and (max-width: 768px) {
+  /* line 200, ../scss/style.scss */
+  #skills div.templateContainer div {
+    max-width: 376px;
+    min-height: 0px;
+    min-width: 0px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+}
+/* line 213, ../scss/style.scss */
+#skills div.templateContainer ul {
+  text-align: left;
+  margin-left: 0;
+  padding-left: 1em;
+  text-indent: -1em;
+  list-style-position: inside;
+  list-style-type: circle;
+}
+@media screen and (max-width: 768px) {
+  /* line 213, ../scss/style.scss */
+  #skills div.templateContainer ul {
+    text-align: center;
+    padding-left: 0px;
+    text-indent: 0px;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 226, ../scss/style.scss */
+  #skills div.templateContainer li {
+    margin-bottom: 15px;
+  }
+}
+/* line 231, ../scss/style.scss */
+#skills div.templateContainer svg,
+#skills div.templateContainer path {
+  vertical-align: text-bottom;
+  fill: #28b54c;
+  margin-right: 10px;
+}
+
+/* line 239, ../scss/style.scss */
+#social {
+  background-image: url("../../resources/images/Background Images/MeetingOverlay.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+/* line 244, ../scss/style.scss */
+#social .row {
+  position: relative;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 35px;
+}
+@media screen and (max-width: 1210px) {
+  /* line 244, ../scss/style.scss */
+  #social .row {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+/* line 254, ../scss/style.scss */
+#social h2 {
+  color: #30c6cf;
+  border-color: #30c6cf;
+}
+/* line 259, ../scss/style.scss */
+#social div.templateContainer div {
+  padding-left: 75px;
+  padding-right: 75px;
+  margin-bottom: 55px;
+}
+/* line 263, ../scss/style.scss */
+#social div.templateContainer div li {
+  text-align: left;
+  margin-top: 72px;
+}
+/* line 268, ../scss/style.scss */
+#social div.templateContainer img {
+  vertical-align: middle;
+  float: left !important;
+  padding-right: 15px !important;
+}
+
+/* line 277, ../scss/style.scss */
+#projects h2 {
+  color: #28b54c;
+  border-color: #28b54c;
+}
+
+/* line 282, ../scss/style.scss */
+#contact {
+  background-image: url("../../resources/images/Background Images/WorkingAtComputerOverlay.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+/* line 287, ../scss/style.scss */
+#contact h2 {
+  color: #bf963d;
+  border-color: #bf963d;
+}
