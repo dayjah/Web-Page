@@ -1,9 +1,5 @@
 /*Color Variables*/
-<<<<<<< HEAD
 /*Sizes*/
-=======
-/*Size Percentages*/
->>>>>>> ef7ab63c12157f54f15bacf8d04555a6e154f11a
 /*Fonts*/
 /* line 3, ../scss/style.scss */
 body {
@@ -17,13 +13,8 @@ body {
 /* line 10, ../scss/style.scss */
 #landing {
   text-align: center;
-<<<<<<< HEAD
   font-family: "Arvo", serif;
   padding-top: 10%;
-=======
-  font-family: Arvo;
-  padding-top: 15%;
->>>>>>> ef7ab63c12157f54f15bacf8d04555a6e154f11a
   margin-bottom: 80px;
 }
 /* line 15, ../scss/style.scss */
@@ -40,11 +31,7 @@ body {
 }
 /* line 25, ../scss/style.scss */
 #landing p {
-<<<<<<< HEAD
   font-family: "Quicksand", sans-serif;
-=======
-  font-family: Quicksand;
->>>>>>> ef7ab63c12157f54f15bacf8d04555a6e154f11a
   color: #cececf;
   font-size: 20px;
 }
@@ -54,7 +41,6 @@ body {
   background-color: #111111;
   text-align: center;
   height: auto;
-<<<<<<< HEAD
   font-family: "Quicksand", sans-serif;
   min-height: 500px;
 }
@@ -69,20 +55,10 @@ body {
 /* line 44, ../scss/style.scss */
 #content section h2 {
   text-align: center;
-=======
-  margin-bottom: 50px;
-  font-family: Quicksand;
-  padding-top: 60px;
-  min-height: 600px;
-}
-/* line 40, ../scss/style.scss */
-#content section h2 {
->>>>>>> ef7ab63c12157f54f15bacf8d04555a6e154f11a
   text-transform: uppercase;
   font-weight: 500;
   margin-right: auto;
   margin-left: auto;
-<<<<<<< HEAD
   border-bottom: 2px solid;
   width: 400px;
   font-size: 40px;
@@ -94,17 +70,10 @@ body {
   }
 }
 /* line 57, ../scss/style.scss */
-=======
-  border-bottom: 1px solid;
-  width: 400px;
-}
-/* line 48, ../scss/style.scss */
->>>>>>> ef7ab63c12157f54f15bacf8d04555a6e154f11a
 #content section ul {
   list-style-type: none;
   padding-left: 0px;
   text-align: center;
-<<<<<<< HEAD
   margin-bottom: 0px;
   color: #cececf;
 }
@@ -115,16 +84,6 @@ body {
 }
 /* line 68, ../scss/style.scss */
 #content section input[type="text"],
-=======
-  color: #cececf;
-}
-/* line 54, ../scss/style.scss */
-#content section svg {
-  fill: #cccccc;
-}
-/* line 57, ../scss/style.scss */
-#content section input,
->>>>>>> ef7ab63c12157f54f15bacf8d04555a6e154f11a
 #content section textarea {
   display: block;
   border: 1px solid #cececf;
@@ -132,128 +91,73 @@ body {
   margin-right: auto;
   padding-left: 10px;
   margin-bottom: 20px;
-<<<<<<< HEAD
   min-width: 350px;
   min-height: 40px;
   font-size: 16px;
-=======
-  min-width: 270px;
->>>>>>> ef7ab63c12157f54f15bacf8d04555a6e154f11a
   background-color: transparent;
   color: #cececf;
   outline: none;
 }
-<<<<<<< HEAD
 /* line 82, ../scss/style.scss */
 #content section input[type="text"].error,
-=======
-/* line 69, ../scss/style.scss */
-#content section input.error,
->>>>>>> ef7ab63c12157f54f15bacf8d04555a6e154f11a
 #content section textarea.error {
   color: #e84646;
   border-color: #e84646;
 }
-<<<<<<< HEAD
 /* line 84, ../scss/style.scss */
 #content section input[type="text"].error::-webkit-input-placeholder,
-=======
-/* line 71, ../scss/style.scss */
-#content section input.error::-webkit-input-placeholder,
->>>>>>> ef7ab63c12157f54f15bacf8d04555a6e154f11a
 #content section textarea.error::-webkit-input-placeholder {
   color: #e84646;
   border-color: #e84646;
 }
-<<<<<<< HEAD
 /* line 87, ../scss/style.scss */
 #content section input[type="text"].error:-moz-placeholder,
-=======
-/* line 74, ../scss/style.scss */
-#content section input.error:-moz-placeholder,
->>>>>>> ef7ab63c12157f54f15bacf8d04555a6e154f11a
 #content section textarea.error:-moz-placeholder {
   color: #e84646;
   border-color: #e84646;
 }
-<<<<<<< HEAD
 /* line 90, ../scss/style.scss */
 #content section input[type="text"].error::-moz-placeholder,
-=======
-/* line 77, ../scss/style.scss */
-#content section input.error::-moz-placeholder,
->>>>>>> ef7ab63c12157f54f15bacf8d04555a6e154f11a
 #content section textarea.error::-moz-placeholder {
   color: #e84646;
   border-color: #e84646;
 }
-<<<<<<< HEAD
 /* line 93, ../scss/style.scss */
 #content section input[type="text"].error:-ms-input-placeholder,
-=======
-/* line 80, ../scss/style.scss */
-#content section input.error:-ms-input-placeholder,
->>>>>>> ef7ab63c12157f54f15bacf8d04555a6e154f11a
 #content section textarea.error:-ms-input-placeholder {
   color: #e84646;
   border-color: #e84646;
 }
-<<<<<<< HEAD
 /* line 97, ../scss/style.scss */
 #content section input[type="text"].success,
-=======
-/* line 84, ../scss/style.scss */
-#content section input.success,
->>>>>>> ef7ab63c12157f54f15bacf8d04555a6e154f11a
 #content section textarea.success {
   color: #28b54c;
   border-color: #28b54c;
 }
-<<<<<<< HEAD
 /* line 99, ../scss/style.scss */
 #content section input[type="text"].success::-webkit-input-placeholder,
-=======
-/* line 86, ../scss/style.scss */
-#content section input.success::-webkit-input-placeholder,
->>>>>>> ef7ab63c12157f54f15bacf8d04555a6e154f11a
 #content section textarea.success::-webkit-input-placeholder {
   color: #28b54c;
   border-color: #28b54c;
 }
-<<<<<<< HEAD
 /* line 102, ../scss/style.scss */
 #content section input[type="text"].success:-moz-placeholder,
-=======
-/* line 89, ../scss/style.scss */
-#content section input.success:-moz-placeholder,
->>>>>>> ef7ab63c12157f54f15bacf8d04555a6e154f11a
 #content section textarea.success:-moz-placeholder {
   color: #28b54c;
   border-color: #28b54c;
 }
-<<<<<<< HEAD
 /* line 105, ../scss/style.scss */
 #content section input[type="text"].success::-moz-placeholder,
-=======
-/* line 92, ../scss/style.scss */
-#content section input.success::-moz-placeholder,
->>>>>>> ef7ab63c12157f54f15bacf8d04555a6e154f11a
 #content section textarea.success::-moz-placeholder {
   color: #28b54c;
   border-color: #28b54c;
 }
-<<<<<<< HEAD
 /* line 108, ../scss/style.scss */
 #content section input[type="text"].success:-ms-input-placeholder,
-=======
-/* line 95, ../scss/style.scss */
-#content section input.success:-ms-input-placeholder,
->>>>>>> ef7ab63c12157f54f15bacf8d04555a6e154f11a
 #content section textarea.success:-ms-input-placeholder {
   color: #28b54c;
   border-color: #28b54c;
 }
-<<<<<<< HEAD
 /* line 113, ../scss/style.scss */
 #content section input[type="text"]:focus::-webkit-input-placeholder,
 #content section textarea:focus::-webkit-input-placeholder {
@@ -284,35 +188,10 @@ body {
 }
 
 /* line 134, ../scss/style.scss */
-=======
-/* line 100, ../scss/style.scss */
-#content section input:focus::-webkit-input-placeholder,
-#content section textarea:focus::-webkit-input-placeholder {
-  opacity: 0;
-}
-/* line 103, ../scss/style.scss */
-#content section input:focus:-moz-placeholder,
-#content section textarea:focus:-moz-placeholder {
-  opacity: 0;
-}
-/* line 106, ../scss/style.scss */
-#content section input:focus::-moz-placeholder,
-#content section textarea:focus::-moz-placeholder {
-  opacity: 0;
-}
-/* line 109, ../scss/style.scss */
-#content section input:focus:-ms-input-placeholder,
-#content section textarea:focus:-ms-input-placeholder {
-  opacity: 0;
-}
-
-/* line 117, ../scss/style.scss */
->>>>>>> ef7ab63c12157f54f15bacf8d04555a6e154f11a
 #aboutMe h2 {
   color: #30c6cf;
   border-color: #30c6cf;
 }
-<<<<<<< HEAD
 /* line 138, ../scss/style.scss */
 #aboutMe p {
   margin: 0 0 0px;
@@ -379,15 +258,10 @@ body {
   }
 }
 /* line 190, ../scss/style.scss */
-=======
-
-/* line 123, ../scss/style.scss */
->>>>>>> ef7ab63c12157f54f15bacf8d04555a6e154f11a
 #skills h2 {
   color: #28b54c;
   border-color: #28b54c;
 }
-<<<<<<< HEAD
 /* line 195, ../scss/style.scss */
 #skills div.templateContainer h3 {
   color: #28b54c;
@@ -464,15 +338,10 @@ body {
   }
 }
 /* line 254, ../scss/style.scss */
-=======
-
-/* line 129, ../scss/style.scss */
->>>>>>> ef7ab63c12157f54f15bacf8d04555a6e154f11a
 #social h2 {
   color: #30c6cf;
   border-color: #30c6cf;
 }
-<<<<<<< HEAD
 /* line 259, ../scss/style.scss */
 #social div.templateContainer div {
   padding-left: 75px;
@@ -492,16 +361,11 @@ body {
 }
 
 /* line 277, ../scss/style.scss */
-=======
-
-/* line 135, ../scss/style.scss */
->>>>>>> ef7ab63c12157f54f15bacf8d04555a6e154f11a
 #projects h2 {
   color: #28b54c;
   border-color: #28b54c;
 }
 
-<<<<<<< HEAD
 /* line 282, ../scss/style.scss */
 #contact {
   background-image: url("../../resources/images/Background Images/WorkingAtComputerOverlay.jpg");
@@ -510,17 +374,6 @@ body {
   background-position: 50% 50%;
 }
 /* line 287, ../scss/style.scss */
-=======
-/* line 140, ../scss/style.scss */
-#contact {
-  background: url("../../resources/images/Background%2520Images/Meeting.jpg") !important;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-attachment: fixed;
-}
-/* line 146, ../scss/style.scss */
->>>>>>> ef7ab63c12157f54f15bacf8d04555a6e154f11a
 #contact h2 {
   color: #bf963d;
   border-color: #bf963d;

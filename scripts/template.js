@@ -16,11 +16,7 @@ var data = {
     },
         {
             title: 'To the Future',
-<<<<<<< HEAD
             subTitle: 'Goals I hope to meet someday',
-=======
-            subTitle: 'My Goals to meet',
->>>>>>> ef7ab63c12157f54f15bacf8d04555a6e154f11a
             desc: 'Future plans include increasing my knowledge in the web development field.Also I have many projects that I would love to create!'
     }],
     skills: [{
@@ -45,11 +41,7 @@ var data = {
     },
         {
             title: 'UI/UX',
-<<<<<<< HEAD
             items: ['Ability to ensure implementaions are optimized for cross - browser performance', 'Understanding of the user flow in implementation of code', 'Knowledge of standards required for a web app / page', 'Ability to ensure that implementations are responsive for multi - device optimization']
-=======
-            items: ['Ability to ensure implementations are optimized for cross - browser performance', 'Understanding of the user flow in implementation of code', 'Knowledge of standards required for a web app / page', 'Ability to ensure that implementations are responsive for multi - device optimization']
->>>>>>> ef7ab63c12157f54f15bacf8d04555a6e154f11a
     }],
     social: [{
             title: 'Pinterest',

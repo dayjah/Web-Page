@@ -3,10 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>The Hub</title>
     <link rel="stylesheet" type="text/css" href="../libs/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="../libs/bootstrap/dist/css/bootstrap-theme.css">
     <link rel="stylesheet" type="text/css" href="../styles/css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Quicksand|Arvo' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
@@ -20,91 +22,105 @@
     </header>
     <div id="content">
         <section id="aboutMe">
-            <h2>About Me</h2>
-            <h1>I&#39;m a pretty cool dude.</h1>
             <div>
-                <script id="aboutMeScript" type="text/x-handlebars-template">
-                    <ul>
-                        {{#each aboutMe}}
-                        <li>
-                            <h1>{{title}}</h1>
-                            <p>{{subTitle}}</p>
-                            <p>{{desc}}</p>
-                        </li>
+                <h2>About Me</h2>
+                <h3>I&#39;m a pretty cool dude.</h3>
+                <div class="templateContainer">
+                    <script id="aboutMeScript" type="text/x-handlebars-template">
+                        <ul>
+                            {{#each aboutMe}}
+                            <li>
+                                <h3>{{title}}</h3>
+                                <p>{{subTitle}}</p>
+                                <p>{{desc}}</p>
+                            </li>
 
-                        {{/each}}
-                    </ul>
-                </script>
+                            {{/each}}
+                        </ul>
+                    </script>
+                </div>
             </div>
         </section>
 
         <section id="skills">
-            <h2>Skills</h2>
-            <h1>I&#39;m the best at what I do, bub.</h1>
             <div>
-                <script id="skillsScript" type="text/x-handlebars-template">
-                    {{#each skills}}
-                    <div>
-                        <h1>{{title}}</h1>
-                        <ul>
-                            {{#each items}}
-                            <li>{{this}}</li>
-                            {{/each}}
-                        </ul>
-                    </div>
-                    {{/each}}
-                </script>
+                <h2>Skills</h2>
+                <h3>I&#39;m the best at what I do, bub.</h3>
+                <div class="templateContainer row">
+                    <script id="skillsScript" type="text/x-handlebars-template">
+                        {{#each skills}}
+                        <div class="col-sm-6 col-md-4 col-centered">
+                            <h3>{{title}}</h3>
+                            <ul>
+                                {{#each items}}
+                                <li>{{this}}</li>
+                                {{/each}}
+                            </ul>
+                        </div>
+                        {{/each}}
+                    </script>
+                </div>
+                <p>Feel free to download my full <a>Resume Here</a></p>
             </div>
         </section>
 
         <section id="social">
-            <h2>Social</h2>
-            <h1>I have a life, I swear.</h1>
             <div>
-                <script id="socialScript" type="text/x-handlebars-template">
-                    <ul>
-                        {{#each social}}
-                        <h1>{{title}}</h1>
-                        <li>{{description}}</li>
-                        {{/each}}
-                    </ul>
-                </script>
+                <h2>Social</h2>
+                <h3>I have a life, I swear.</h3>
+                <div class="templateContainer row">
+                    <script id="socialScript" type="text/x-handlebars-template">
+                        <ul>
+                            {{#each social}}
+                            <div class="col-sm-6 col-md-6 col-lg-6 col-centered">
+                                <li><strong>{{title}}</strong> {{description}}</li>
+                            </div>
+                            {{/each}}
+                        </ul>
+                    </script>
+                </div>
             </div>
         </section>
 
         <section id="projects">
-            <h2>Projects</h2>
-            <h1>What&#39;s a dev without something to showoff?</h1>
+            <div>
+                <h2>Projects</h2>
+                <h3>What&#39;s a dev without something to showoff?</h3>
+            </div>
         </section>
 
         <section id="calender">
-           <h2>Calender</h2>
-           <h1>Under construction, but this section will feature a custom Google calender for you to set appointments with me! :D</h1>
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="479.512px" height="479.512px" viewBox="0 0 479.512 479.512" style="enable-background:new 0 0 479.512 479.512;" xml:space="preserve">
-                <g>
-                    <g id="iconos_42_">
-                        <path d="M474.037,438.871v-31.078c0-21.124-12.346-33.469-33.469-33.469H230.193c-28.391,0-43.031,13.445-43.031,33.469v40.344    c0,20.914,14.047,31.375,43.031,31.375h210.375C461.691,479.512,474.037,465.465,474.037,438.871z M435.787,441.262H225.412    v-28.688h210.375V441.262z"></path>
-                        <path d="M311.475,154.387v9.562v81.96l0,0v0.01l12.183,32.78h-20.502L103.127,0L59.053,26.584l13.359,23.418v123.509H58.298    l9.486,66.938h4.15h0.478v20.225c-8.606,3.911-18.169,12.307-18.169,27.387c0,10.127,3.95,17.519,9.725,22.453l-51.857,44.686    h14.65l45.929-39.579c4.16,1.626,8.606,2.524,13.005,2.524c4.418,0,8.807-1.176,12.766-3.309l49.792,40.363h14.927l0.105-0.134    l-57.279-46.426c3.882-4.677,6.455-10.949,6.455-18.973c0-5.288-4.284-9.562-9.562-9.562c-5.279,0-9.562,4.274-9.562,9.562    c0,3.434-0.928,5.585-2.142,6.972l-2.62-2.123c-1.788-1.444-4.38-1.425-6.129,0.096l-3.586,3.089    c-3.099-1.435-5.489-4.246-5.489-9.63c0-8.645,8.578-10.738,10.194-11.045c4.609-0.793,7.975-4.771,7.975-9.438v-27.139h6.694    h3.92l13.378-66.938h-9.648H101.1v-69.405l114.75,220.846v1.521v2.878v6.723h38.25v19.125h133.875h9.562v-19.125h47.812h9.562    V154.387H311.475z M228.759,204.112l0.115,0.163l-39.015,25.389l20.062-51.466L228.759,204.112z M91.537,173.512h-4.781h-4.781    V68.037l9.562,18.035V173.512z M99.856,76.032L83.352,44.686l25.733-16.916L99.856,76.032z M122.233,47.296l18.341,31.824    l-29.605,19.068L122.233,47.296z M125.168,116.471l27.894-18.14l-10.92,49.677L125.168,116.471z M164.853,114.54l20.569,29.997    l-30.925,19.804L164.853,114.54z M161.678,187.196l34.559-23.677l-19.68,52.708L161.678,187.196z M212.828,278.125l-16.667-29.414    l41.376-29.548L212.828,278.125z M225.813,299.02l28.286-60.961l23.008,31.375L225.813,299.02z M416.662,250.012h-66.938v-57.375    h66.938V250.012z"></path>
-                        <polygon points="15.037,412.574 5.475,412.574 5.475,431.699 158.475,431.699 158.475,412.574 139.35,412.574 139.35,393.449     139.35,383.887 158.475,383.887 158.475,364.762 5.475,364.762 5.475,383.887 24.6,383.887 24.6,412.574   "></polygon>
+            <div>
+                <h2>Calender</h2>
+                <h1>Under construction, but this section will feature a custom Google calender for you to set appointments with me! :D</h1>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="479.512px" height="479.512px" viewBox="0 0 479.512 479.512" style="enable-background:new 0 0 479.512 479.512;" xml:space="preserve">
+                    <g>
+                        <g id="iconos_42_">
+                            <path d="M474.037,438.871v-31.078c0-21.124-12.346-33.469-33.469-33.469H230.193c-28.391,0-43.031,13.445-43.031,33.469v40.344    c0,20.914,14.047,31.375,43.031,31.375h210.375C461.691,479.512,474.037,465.465,474.037,438.871z M435.787,441.262H225.412    v-28.688h210.375V441.262z"></path>
+                            <path d="M311.475,154.387v9.562v81.96l0,0v0.01l12.183,32.78h-20.502L103.127,0L59.053,26.584l13.359,23.418v123.509H58.298    l9.486,66.938h4.15h0.478v20.225c-8.606,3.911-18.169,12.307-18.169,27.387c0,10.127,3.95,17.519,9.725,22.453l-51.857,44.686    h14.65l45.929-39.579c4.16,1.626,8.606,2.524,13.005,2.524c4.418,0,8.807-1.176,12.766-3.309l49.792,40.363h14.927l0.105-0.134    l-57.279-46.426c3.882-4.677,6.455-10.949,6.455-18.973c0-5.288-4.284-9.562-9.562-9.562c-5.279,0-9.562,4.274-9.562,9.562    c0,3.434-0.928,5.585-2.142,6.972l-2.62-2.123c-1.788-1.444-4.38-1.425-6.129,0.096l-3.586,3.089    c-3.099-1.435-5.489-4.246-5.489-9.63c0-8.645,8.578-10.738,10.194-11.045c4.609-0.793,7.975-4.771,7.975-9.438v-27.139h6.694    h3.92l13.378-66.938h-9.648H101.1v-69.405l114.75,220.846v1.521v2.878v6.723h38.25v19.125h133.875h9.562v-19.125h47.812h9.562    V154.387H311.475z M228.759,204.112l0.115,0.163l-39.015,25.389l20.062-51.466L228.759,204.112z M91.537,173.512h-4.781h-4.781    V68.037l9.562,18.035V173.512z M99.856,76.032L83.352,44.686l25.733-16.916L99.856,76.032z M122.233,47.296l18.341,31.824    l-29.605,19.068L122.233,47.296z M125.168,116.471l27.894-18.14l-10.92,49.677L125.168,116.471z M164.853,114.54l20.569,29.997    l-30.925,19.804L164.853,114.54z M161.678,187.196l34.559-23.677l-19.68,52.708L161.678,187.196z M212.828,278.125l-16.667-29.414    l41.376-29.548L212.828,278.125z M225.813,299.02l28.286-60.961l23.008,31.375L225.813,299.02z M416.662,250.012h-66.938v-57.375    h66.938V250.012z"></path>
+                            <polygon points="15.037,412.574 5.475,412.574 5.475,431.699 158.475,431.699 158.475,412.574 139.35,412.574 139.35,393.449     139.35,383.887 158.475,383.887 158.475,364.762 5.475,364.762 5.475,383.887 24.6,383.887 24.6,412.574   "></polygon>
+                        </g>
                     </g>
-                </g>
-            </svg>
+                </svg>
+            </div>
         </section>
 
         <section id="contact">
-        <h2>Drop a line</h2>
-        <h1>Feel free anytime.</h1>
-        <div>
-            <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-                    <input id="name" class="error" name="name" type="text" value="" size="30" placeholder="Name*"/>
-                <input id="email" class="success" name="email" type="text" value="" size="30" placeholder="Email*"/>
-                <input id="Subject " class="input" name="subject" type="text" value="" size="30" placeholder="Subject*"/>
-                <input id="Company" class="input" name="company" type="text" value="" size="30" placeholder="Company"/>
-                    <textarea id="message" class="input" name="message" rows="7" cols="30" placeholder="Enter your message here"></textarea>
-                    <input id="submit_button" type="submit" value="Send" />
-                    <input id="submit_button" type="submit" value="Cancel" />
-            </form>						
-        </div>
+            <div>
+                <h2>Drop a line</h2>
+                <h3>Feel free anytime.</h3>
+                <div>
+                    <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+                        <input id="name" class="error" name="name" type="text" value="" size="30" placeholder="Name*" />
+                        <input id="email" class="success" name="email" type="text" value="" size="30" placeholder="Email*" />
+                        <input id="Subject " class="input" name="subject" type="text" value="" size="30" placeholder="Subject*" />
+                        <input id="Company" class="input" name="company" type="text" value="" size="30" placeholder="Company" />
+                        <textarea id="message" class="input" name="message" rows="7" cols="30" placeholder="Enter your message here"></textarea>
+                        <input id="submit_button" type="submit" value="Send" />
+                        <input id="submit_button" type="submit" value="Cancel" />
+                    </form>
+                </div>
+            </div>
         </section>
     </div>
     <footer>
@@ -113,7 +129,8 @@
     <script type="text/javascript" src="../libs/handlebars/handlebars.min.js"></script>
     <script type="text/javascript" src="../libs/bootstrap/dist/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="../libs/modernizer/modernizer.js"></script>
-    <script type="text/javascript" src="scripts/template.js"></script>
+    <script type="text/javascript" src="scripts/model/HandleBarsTemplate.js"></script>
+    <script type="text/javascript" src="scripts/init/core.js"></script>
 </body>
 
 </html>

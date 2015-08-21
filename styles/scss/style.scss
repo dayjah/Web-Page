@@ -10,11 +10,7 @@ body {
 #landing {
     text-align: center;
     font-family: $textArvo;
-<<<<<<< HEAD
     padding-top: 10%;
-=======
-    padding-top: 15%;
->>>>>>> ef7ab63c12157f54f15bacf8d04555a6e154f11a
     margin-bottom: 80px;
     h2 {
         font-size: 35px;
@@ -37,7 +33,6 @@ body {
         background-color: $backgroundColor;
         text-align: center;
         height: auto;
-<<<<<<< HEAD
         font-family: $textQuicksand;
         min-height: 500px;
         > div:first-of-type {
@@ -48,49 +43,29 @@ body {
         }
         h2 {
             text-align: center;
-=======
-        margin-bottom: 50px;
-        font-family: $textQuicksand;
-        padding-top: 60px;
-        min-height: 600px;
-        h2 {
->>>>>>> ef7ab63c12157f54f15bacf8d04555a6e154f11a
             text-transform: uppercase;
             font-weight: 500;
             margin-right: auto;
             margin-left: auto;
-<<<<<<< HEAD
             border-bottom: 2px solid;
             width: 400px;
             font-size: 40px;
             @media screen and (max-width: $mobileSmall) {
                 width: auto;
             }
-=======
-            border-bottom: 1px solid;
-            width: 400px;
->>>>>>> ef7ab63c12157f54f15bacf8d04555a6e154f11a
         }
         ul {
             list-style-type: none;
             padding-left: 0px;
             text-align: center;
-<<<<<<< HEAD
             margin-bottom: 0px;
-=======
->>>>>>> ef7ab63c12157f54f15bacf8d04555a6e154f11a
             color: #cececf;
         }
         svg {
             fill: #cccccc;
-<<<<<<< HEAD
             width: 30px;
         }
         input[type="text"],
-=======
-        }
-        input,
->>>>>>> ef7ab63c12157f54f15bacf8d04555a6e154f11a
         textarea {
             display: block;
             border: 1px solid $primaryColor;
@@ -98,13 +73,9 @@ body {
             margin-right: auto;
             padding-left: 10px;
             margin-bottom: 20px;
-<<<<<<< HEAD
             min-width: 350px;
             min-height: 40px;
             font-size: 16px;
-=======
-            min-width: 270px;
->>>>>>> ef7ab63c12157f54f15bacf8d04555a6e154f11a
             background-color: transparent;
             color: $primaryColor;
             outline: none;
@@ -152,13 +123,10 @@ body {
                     opacity: 0;
                 }
             }
-<<<<<<< HEAD
             @media screen and (max-width: $mobile) {
                 width: 90%;
                 min-width: 0px;
             }
-=======
->>>>>>> ef7ab63c12157f54f15bacf8d04555a6e154f11a
         }
     }
 }
@@ -167,7 +135,6 @@ body {
         color: $colorBlue;
         border-color: $colorBlue;
     }
-<<<<<<< HEAD
     p {
         margin: 0 0 0px;
         padding-bottom: 10px;
@@ -220,15 +187,10 @@ body {
             margin-left: 0px;
         }
     }
-=======
-}
-#skills {
->>>>>>> ef7ab63c12157f54f15bacf8d04555a6e154f11a
     h2 {
         color: $colorGreen;
         border-color: $colorGreen;
     }
-<<<<<<< HEAD
     div.templateContainer {
         h3 {
             color: $colorGreen;
@@ -289,15 +251,10 @@ body {
             margin-right: 15px;
         }
     }
-=======
-}
-#social {
->>>>>>> ef7ab63c12157f54f15bacf8d04555a6e154f11a
     h2 {
         color: $colorBlue;
         border-color: $colorBlue;
     }
-<<<<<<< HEAD
     div.templateContainer{
         div{
             padding-left: 75px;
@@ -315,8 +272,6 @@ body {
         }
     }
     
-=======
->>>>>>> ef7ab63c12157f54f15bacf8d04555a6e154f11a
 }
 #projects {
     h2 {
@@ -325,14 +280,10 @@ body {
     }
 }
 #contact {
-<<<<<<< HEAD
     background-image: url('../../resources/images/Background Images/WorkingAtComputerOverlay.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 50% 50%;
-=======
-    
->>>>>>> ef7ab63c12157f54f15bacf8d04555a6e154f11a
     h2 {
         color: $colorTan;
         border-color: $colorTan;
