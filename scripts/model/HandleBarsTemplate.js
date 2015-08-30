@@ -45,27 +45,33 @@ var data = {
     }],
     social: [{
             title: 'Pinterest',
-            description: 'Here you will be able to see all of the random things that pique my interest which runs from inventions, to amazing designs that give me inspiration for projects.'
+            description: 'Here you will be able to see all of the random things that pique my interest which runs from inventions, to amazing designs that give me inspiration for projects.',
+        href: 'https://www.pinterest.com/marcus2376/'
         },
         {
             title: 'Github',
-            description: 'Though this is not necessarily a social media site I do believe that through the projects that people create, one can also see into the interests of the creator.'
+            description: 'Though this is not necessarily a social media site I do believe that through the projects that people create, one can also see into the interests of the creator.',
+            href: 'https://github.com/The-Stampede'
         },
         {
             title: 'Tumblr',
-            description: 'In my tumblr account you can see a bit of my comical taste. Most of my posts in this account are PG-13 rated, however there are a few posts that adults are more likely to get.'
+            description: 'In my tumblr account you can see a bit of my comical taste. Most of my posts in this account are PG-13 rated, however there are a few posts that adults are more likely to get.',
+            href: 'http://vashht1.tumblr.com/'
         },
         {
             title: 'Facebook',
-            description: 'This is the godfather of all social media, and a great way to tell what I am planning. I will admit I may be switching this account out for a Twitter which seems to be more popular.'
+            description: 'This is the godfather of all social media, and a great way to tell what I am planning. I will admit I may be switching this account out for a Twitter which seems to be more popular.',
+            href: 'https://www.facebook.com/marcus.parker.14'
         },
         {
             title: 'LinkedIn',
-            description: 'Here you are able to see all of my professonal aspects of my career including both previous experiences and my current occupational status.'
+            description: 'Here you are able to see all of my professonal aspects of my career including both previous experiences and my current occupational status.',
+            href: 'https://www.linkedin.com/pub/marcus-parker/83/b19/129'
         },
         {
             title: 'Instagram',
-            description: 'Here you can see what I am up through a more visual story. Normally I show photos from trips I take, or freaking amazing food that I am eating!'
+            description: 'Here you can see what I am up through a more visual story. Normally I show photos from trips I take, or freaking amazing food that I am eating!',
+            href: 'https://instagram.com/mark_park.exe/'
         }]
 };
 
