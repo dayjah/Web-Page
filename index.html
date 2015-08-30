@@ -48,16 +48,18 @@
                 <h3>I&#39;m the best at what I do, bub.</h3>
                 <div class="templateContainer row">
                     <script id="skillsScript" type="text/x-handlebars-template">
-                        {{#each skills}}
-                        <div class="col-sm-6 col-md-4 col-centered">
-                            <h3>{{title}}</h3>
-                            <ul>
-                                {{#each items}}
-                                <li>{{this}}</li>
-                                {{/each}}
-                            </ul>
-                        </div>
-                        {{/each}}
+                        <ul>
+                            {{#each skills}}
+                            <li class="col-sm-6 col-md-4 col-centered">
+                                <h3>{{title}}</h3>
+                                <ul>
+                                    {{#each items}}
+                                    <li>{{this}}</li>
+                                    {{/each}}
+                                </ul>
+                            </li>
+                            {{/each}}
+                        </ul>
                     </script>
                 </div>
                 <p>Feel free to download my full <a>Resume Here</a></p>
@@ -72,9 +74,9 @@
                     <script id="socialScript" type="text/x-handlebars-template">
                         <ul>
                             {{#each social}}
-                            <div class="col-sm-6 col-md-6 col-lg-6 col-centered">
-                                <li><strong>{{title}}</strong> {{description}}</li>
-                            </div>
+                            <li class="col-sm-6 col-md-6 col-lg-6 col-centered">
+                                <p><strong>{{title}}</strong> {{description}}</p>
+                            </li>
                             {{/each}}
                         </ul>
                     </script>
@@ -109,17 +111,15 @@
             <div>
                 <h2>Drop a line</h2>
                 <h3>Feel free anytime.</h3>
-                <div>
-                    <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-                        <input id="name" class="error" name="name" type="text" value="" size="30" placeholder="Name*" />
-                        <input id="email" class="success" name="email" type="text" value="" size="30" placeholder="Email*" />
-                        <input id="Subject " class="input" name="subject" type="text" value="" size="30" placeholder="Subject*" />
-                        <input id="Company" class="input" name="company" type="text" value="" size="30" placeholder="Company" />
-                        <textarea id="message" class="input" name="message" rows="7" cols="30" placeholder="Enter your message here"></textarea>
-                        <input id="submit_button" type="submit" value="Send" />
-                        <input id="submit_button" type="submit" value="Cancel" />
-                    </form>
-                </div>
+                <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+                    <input id="name" class="error" name="name" type="text" value="" size="30" placeholder="Name*" />
+                    <input id="email" class="success" name="email" type="text" value="" size="30" placeholder="Email*" />
+                    <input id="Subject " class="input" name="subject" type="text" value="" size="30" placeholder="Subject*" />
+                    <input id="Company" class="input" name="company" type="text" value="" size="30" placeholder="Company" />
+                    <textarea id="message" class="input" name="message" rows="7" cols="30" placeholder="Enter your message here"></textarea>
+                    <input id="submit_button" type="submit" value="Send" />
+                    <input id="submit_button" type="submit" value="Cancel" />
+                </form>
             </div>
         </section>
     </div>
