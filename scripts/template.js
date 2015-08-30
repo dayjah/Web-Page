@@ -23,8 +23,7 @@ var data = {
             title: 'HTML',
             items: ['Fimiliarity with HTML/HTML5 semantics/syantax', 'Knowledge level to hand-code markup', 'Ability to work with videos and images', 'Understanding of the DOM structure', 'Knowledge of best practices']
     },
-        {
-            title: 'CSS',
+        {            title: 'CSS',
             items: ['Understanding of the CSS box model', 'Ability to create effeicient/concise selectors', 'Knowledge of properties/attributes for changing display of elements', 'Proficient with CSS preprocessors(SASS / LESS)', 'Knowledge on CSS attributes and browser compatibility']
     },
         {
