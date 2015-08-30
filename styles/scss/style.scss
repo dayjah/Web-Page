@@ -145,8 +145,8 @@ body {
     }
     li {
         display: inline-block;
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
         max-width: 255px;
         border-bottom: 1px solid #5E5E5E;
         border-left: 1px solid #5E5E5E;
@@ -259,12 +259,12 @@ body {
     }
     div.templateContainer{
         li{
-            padding-left: 75px;
-            padding-right: 75px;
+            padding-left: 15%;
             margin-bottom: 55px;
             p{
                 text-align: left;
                 margin-top: 72px;
+                max-width: 350px;
             }
         }
         img{
