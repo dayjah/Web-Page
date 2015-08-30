@@ -275,7 +275,7 @@ body {
   min-width: 310px;
   display: inline-block;
   text-align: left;
-  min-height: 275px;
+  min-height: 280px;
 }
 @media screen and (max-width: 768px) {
   /* line 201, ../scss/style.scss */
