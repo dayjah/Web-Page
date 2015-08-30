@@ -196,8 +196,10 @@ body {
             color: $colorGreen;
             border-bottom: 1px solid $colorGreen;
             padding-bottom: 2px;
+            padding-left: 15px;
         }
-        div {
+        > ul > li {
+            list-style-type: none;
             min-width: 310px;
             display: inline-block;
             text-align: left;
@@ -256,11 +258,11 @@ body {
         border-color: $colorBlue;
     }
     div.templateContainer{
-        div{
+        li{
             padding-left: 75px;
             padding-right: 75px;
             margin-bottom: 55px;
-            li{
+            p{
                 text-align: left;
                 margin-top: 72px;
             }
