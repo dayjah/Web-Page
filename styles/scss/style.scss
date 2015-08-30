@@ -245,12 +245,19 @@ body {
     background-position: 50% 50%;
     .row {
         position: relative;
-        margin-left: 100px;
+        margin-left: 15%;
         margin-right: 100px;
         margin-bottom: 35px;
         @media screen and (max-width: $desktopSmall) {
-            margin-left: 15px;
+            margin-left: 12%;
             margin-right: 15px;
+        }
+        @media screen and (max-width: $tabletSmall) {
+            margin-left: 9%;
+        }
+        @media screen and (max-width: $mobile) {
+            margin-left: auto;  
+            margin-right: auto;
         }
     }
     h2 {
@@ -259,12 +266,25 @@ body {
     }
     div.templateContainer{
         li{
-            padding-left: 15%;
+            min-height: 225px;
             margin-bottom: 55px;
             p{
                 text-align: left;
                 margin-top: 72px;
                 max-width: 350px;
+                @media screen and (max-width: $mobile) {
+                    max-width: none;
+                }
+            }
+            a{
+                font-weight: bold;
+                cursor: pointer;
+            }
+            @media screen and (max-width: $mobile) {
+                min-height: 0px;
+                max-width: 420px;
+                margin-left: auto;
+                margin-right: auto;
             }
         }
         img{

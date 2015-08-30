@@ -328,54 +328,87 @@ body {
 /* line 246, ../scss/style.scss */
 #social .row {
   position: relative;
-  margin-left: 100px;
+  margin-left: 15%;
   margin-right: 100px;
   margin-bottom: 35px;
 }
 @media screen and (max-width: 1210px) {
   /* line 246, ../scss/style.scss */
   #social .row {
-    margin-left: 15px;
+    margin-left: 12%;
     margin-right: 15px;
   }
 }
-/* line 256, ../scss/style.scss */
+@media screen and (max-width: 999px) {
+  /* line 246, ../scss/style.scss */
+  #social .row {
+    margin-left: 9%;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* line 246, ../scss/style.scss */
+  #social .row {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/* line 263, ../scss/style.scss */
 #social h2 {
   color: #30c6cf;
   border-color: #30c6cf;
 }
-/* line 261, ../scss/style.scss */
+/* line 268, ../scss/style.scss */
 #social div.templateContainer li {
-  padding-left: 15%;
+  min-height: 225px;
   margin-bottom: 55px;
 }
-/* line 264, ../scss/style.scss */
+/* line 271, ../scss/style.scss */
 #social div.templateContainer li p {
   text-align: left;
   margin-top: 72px;
   max-width: 350px;
 }
-/* line 270, ../scss/style.scss */
+@media screen and (max-width: 768px) {
+  /* line 271, ../scss/style.scss */
+  #social div.templateContainer li p {
+    max-width: none;
+  }
+}
+/* line 279, ../scss/style.scss */
+#social div.templateContainer li a {
+  font-weight: bold;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  /* line 268, ../scss/style.scss */
+  #social div.templateContainer li {
+    min-height: 0px;
+    max-width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/* line 290, ../scss/style.scss */
 #social div.templateContainer img {
   vertical-align: middle;
   float: left !important;
   padding-right: 15px !important;
 }
 
-/* line 279, ../scss/style.scss */
+/* line 299, ../scss/style.scss */
 #projects h2 {
   color: #28b54c;
   border-color: #28b54c;
 }
 
-/* line 284, ../scss/style.scss */
+/* line 304, ../scss/style.scss */
 #contact {
   background-image: url("../../resources/images/Background Images/WorkingAtComputerOverlay.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
-/* line 289, ../scss/style.scss */
+/* line 309, ../scss/style.scss */
 #contact h2 {
   color: #bf963d;
   border-color: #bf963d;
