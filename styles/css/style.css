@@ -400,15 +400,47 @@ body {
   color: #28b54c;
   border-color: #28b54c;
 }
+/* line 303, ../scss/style.scss */
+#projects .carouselContainer {
+  width: 930px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 308, ../scss/style.scss */
+#projects .innerCarousel {
+  width: 930px;
+  overflow: hidden;
+}
+/* line 311, ../scss/style.scss */
+#projects .innerCarousel ul {
+  position: relative;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  width: 9999px;
+  padding-bottom: 10px;
+}
+/* line 320, ../scss/style.scss */
+#projects .carouselItems {
+  float: left;
+  width: 300px;
+  padding: 0px;
+  height: 210px;
+  background: #000000;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
 
-/* line 304, ../scss/style.scss */
+/* line 332, ../scss/style.scss */
 #contact {
   background-image: url("../../resources/images/Background Images/WorkingAtComputerOverlay.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
-/* line 309, ../scss/style.scss */
+/* line 337, ../scss/style.scss */
 #contact h2 {
   color: #bf963d;
   border-color: #bf963d;
