@@ -3,40 +3,39 @@
 /*Fonts*/
 /* line 3, ../scss/style.scss */
 body {
-  background: url("../../resources/images/Background Images/LandingPageBackgroundOverlaySmaller.jpg");
-  background-size: cover;
+  background: url("../../resources/images/Background Images/samuraiSilhouette.jpg");
   background-repeat: no-repeat;
   background-position: top center;
   background-attachment: fixed;
 }
 
-/* line 10, ../scss/style.scss */
+/* line 9, ../scss/style.scss */
 #landing {
   text-align: center;
   font-family: "Arvo", serif;
   padding-top: 10%;
   margin-bottom: 80px;
 }
-/* line 15, ../scss/style.scss */
+/* line 14, ../scss/style.scss */
 #landing h2 {
   font-size: 35px;
   color: #cececf;
   padding-bottom: 10px;
 }
-/* line 20, ../scss/style.scss */
+/* line 19, ../scss/style.scss */
 #landing h3 {
   font-size: 27px;
   color: #bf963d;
   padding-bottom: 500px;
 }
-/* line 25, ../scss/style.scss */
+/* line 24, ../scss/style.scss */
 #landing p {
   font-family: "Quicksand", sans-serif;
   color: #cececf;
   font-size: 20px;
 }
 
-/* line 32, ../scss/style.scss */
+/* line 31, ../scss/style.scss */
 #content section {
   background-color: #111111;
   text-align: center;
@@ -44,15 +43,15 @@ body {
   font-family: "Quicksand", sans-serif;
   min-height: 500px;
 }
-/* line 38, ../scss/style.scss */
+/* line 37, ../scss/style.scss */
 #content section > div:first-of-type {
   padding: 100px 0px;
 }
-/* line 41, ../scss/style.scss */
+/* line 40, ../scss/style.scss */
 #content section h3 {
   color: #cececf;
 }
-/* line 44, ../scss/style.scss */
+/* line 43, ../scss/style.scss */
 #content section h2 {
   text-align: center;
   text-transform: uppercase;
@@ -64,12 +63,12 @@ body {
   font-size: 40px;
 }
 @media screen and (max-width: 500px) {
-  /* line 44, ../scss/style.scss */
+  /* line 43, ../scss/style.scss */
   #content section h2 {
     width: auto;
   }
 }
-/* line 57, ../scss/style.scss */
+/* line 56, ../scss/style.scss */
 #content section ul {
   list-style-type: none;
   padding-left: 0px;
@@ -77,12 +76,12 @@ body {
   margin-bottom: 0px;
   color: #cececf;
 }
-/* line 64, ../scss/style.scss */
+/* line 63, ../scss/style.scss */
 #content section svg {
   fill: #cccccc;
   width: 30px;
 }
-/* line 68, ../scss/style.scss */
+/* line 67, ../scss/style.scss */
 #content section input[type="text"],
 #content section textarea {
   display: block;
@@ -98,88 +97,88 @@ body {
   color: #cececf;
   outline: none;
 }
-/* line 82, ../scss/style.scss */
+/* line 81, ../scss/style.scss */
 #content section input[type="text"].error,
 #content section textarea.error {
   color: #e84646;
   border-color: #e84646;
 }
-/* line 84, ../scss/style.scss */
+/* line 83, ../scss/style.scss */
 #content section input[type="text"].error::-webkit-input-placeholder,
 #content section textarea.error::-webkit-input-placeholder {
   color: #e84646;
   border-color: #e84646;
 }
-/* line 87, ../scss/style.scss */
+/* line 86, ../scss/style.scss */
 #content section input[type="text"].error:-moz-placeholder,
 #content section textarea.error:-moz-placeholder {
   color: #e84646;
   border-color: #e84646;
 }
-/* line 90, ../scss/style.scss */
+/* line 89, ../scss/style.scss */
 #content section input[type="text"].error::-moz-placeholder,
 #content section textarea.error::-moz-placeholder {
   color: #e84646;
   border-color: #e84646;
 }
-/* line 93, ../scss/style.scss */
+/* line 92, ../scss/style.scss */
 #content section input[type="text"].error:-ms-input-placeholder,
 #content section textarea.error:-ms-input-placeholder {
   color: #e84646;
   border-color: #e84646;
 }
-/* line 97, ../scss/style.scss */
+/* line 96, ../scss/style.scss */
 #content section input[type="text"].success,
 #content section textarea.success {
   color: #28b54c;
   border-color: #28b54c;
 }
-/* line 99, ../scss/style.scss */
+/* line 98, ../scss/style.scss */
 #content section input[type="text"].success::-webkit-input-placeholder,
 #content section textarea.success::-webkit-input-placeholder {
   color: #28b54c;
   border-color: #28b54c;
 }
-/* line 102, ../scss/style.scss */
+/* line 101, ../scss/style.scss */
 #content section input[type="text"].success:-moz-placeholder,
 #content section textarea.success:-moz-placeholder {
   color: #28b54c;
   border-color: #28b54c;
 }
-/* line 105, ../scss/style.scss */
+/* line 104, ../scss/style.scss */
 #content section input[type="text"].success::-moz-placeholder,
 #content section textarea.success::-moz-placeholder {
   color: #28b54c;
   border-color: #28b54c;
 }
-/* line 108, ../scss/style.scss */
+/* line 107, ../scss/style.scss */
 #content section input[type="text"].success:-ms-input-placeholder,
 #content section textarea.success:-ms-input-placeholder {
   color: #28b54c;
   border-color: #28b54c;
 }
-/* line 113, ../scss/style.scss */
+/* line 112, ../scss/style.scss */
 #content section input[type="text"]:focus::-webkit-input-placeholder,
 #content section textarea:focus::-webkit-input-placeholder {
   opacity: 0;
 }
-/* line 116, ../scss/style.scss */
+/* line 115, ../scss/style.scss */
 #content section input[type="text"]:focus:-moz-placeholder,
 #content section textarea:focus:-moz-placeholder {
   opacity: 0;
 }
-/* line 119, ../scss/style.scss */
+/* line 118, ../scss/style.scss */
 #content section input[type="text"]:focus::-moz-placeholder,
 #content section textarea:focus::-moz-placeholder {
   opacity: 0;
 }
-/* line 122, ../scss/style.scss */
+/* line 121, ../scss/style.scss */
 #content section input[type="text"]:focus:-ms-input-placeholder,
 #content section textarea:focus:-ms-input-placeholder {
   opacity: 0;
 }
 @media screen and (max-width: 768px) {
-  /* line 68, ../scss/style.scss */
+  /* line 67, ../scss/style.scss */
   #content section input[type="text"],
   #content section textarea {
     width: 90%;
@@ -187,27 +186,28 @@ body {
   }
 }
 
-/* line 134, ../scss/style.scss */
+/* line 133, ../scss/style.scss */
 #aboutMe h2 {
   color: #30c6cf;
   border-color: #30c6cf;
 }
-/* line 138, ../scss/style.scss */
+/* line 137, ../scss/style.scss */
 #aboutMe p {
   margin: 0 0 0px;
   padding-bottom: 10px;
 }
-/* line 142, ../scss/style.scss */
+/* line 141, ../scss/style.scss */
 #aboutMe ul {
   text-align: center;
   width: auto;
 }
-/* line 146, ../scss/style.scss */
+/* line 145, ../scss/style.scss */
 #aboutMe li {
   display: inline-block;
-  margin-left: 50px;
-  margin-right: 50px;
-  max-width: 255px;
+  margin-left: 1%;
+  margin-right: 1%;
+  min-width: 300px;
+  max-width: 300px;
   border-bottom: 1px solid #5E5E5E;
   border-left: 1px solid #5E5E5E;
   border-right: 1px solid #5E5E5E;
@@ -223,8 +223,26 @@ body {
   color: #cececf;
   text-decoration: none;
 }
+/* line 164, ../scss/style.scss */
+#aboutMe .row {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+@media screen and (max-width: 1335px) {
+  /* line 169, ../scss/style.scss */
+  #aboutMe li {
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+}
+@media screen and (max-width: 500px) {
+  /* line 175, ../scss/style.scss */
+  #aboutMe li {
+    min-width: 0px;
+  }
+}
 
-/* line 166, ../scss/style.scss */
+/* line 181, ../scss/style.scss */
 #skills .row {
   position: relative;
   margin-left: 100px;
@@ -232,18 +250,18 @@ body {
   margin-bottom: 35px;
 }
 @media screen and (max-width: 1210px) {
-  /* line 166, ../scss/style.scss */
+  /* line 181, ../scss/style.scss */
   #skills .row {
     margin-left: 15px;
     margin-right: 15px;
   }
 }
-/* line 176, ../scss/style.scss */
+/* line 191, ../scss/style.scss */
 #skills a {
   color: #28b54c;
   cursor: pointer;
 }
-/* line 180, ../scss/style.scss */
+/* line 195, ../scss/style.scss */
 #skills p {
   text-align: left;
   font-size: 16px;
@@ -251,25 +269,25 @@ body {
   color: #cececf;
 }
 @media screen and (max-width: 999px) {
-  /* line 180, ../scss/style.scss */
+  /* line 195, ../scss/style.scss */
   #skills p {
     text-align: center;
     margin-left: 0px;
   }
 }
-/* line 190, ../scss/style.scss */
+/* line 205, ../scss/style.scss */
 #skills h2 {
   color: #28b54c;
   border-color: #28b54c;
 }
-/* line 195, ../scss/style.scss */
+/* line 210, ../scss/style.scss */
 #skills div.templateContainer h3 {
   color: #28b54c;
   border-bottom: 1px solid #28b54c;
   padding-bottom: 2px;
   padding-left: 15px;
 }
-/* line 201, ../scss/style.scss */
+/* line 216, ../scss/style.scss */
 #skills div.templateContainer > ul > li {
   list-style-type: none;
   min-width: 310px;
@@ -278,7 +296,7 @@ body {
   min-height: 280px;
 }
 @media screen and (max-width: 768px) {
-  /* line 201, ../scss/style.scss */
+  /* line 216, ../scss/style.scss */
   #skills div.templateContainer > ul > li {
     max-width: 376px;
     min-height: 0px;
@@ -287,7 +305,7 @@ body {
     text-align: center;
   }
 }
-/* line 215, ../scss/style.scss */
+/* line 230, ../scss/style.scss */
 #skills div.templateContainer ul {
   text-align: left;
   margin-left: 0;
@@ -297,7 +315,7 @@ body {
   list-style-type: circle;
 }
 @media screen and (max-width: 768px) {
-  /* line 215, ../scss/style.scss */
+  /* line 230, ../scss/style.scss */
   #skills div.templateContainer ul {
     text-align: center;
     padding-left: 0px;
@@ -305,12 +323,12 @@ body {
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 228, ../scss/style.scss */
+  /* line 243, ../scss/style.scss */
   #skills div.templateContainer li {
     margin-bottom: 15px;
   }
 }
-/* line 233, ../scss/style.scss */
+/* line 248, ../scss/style.scss */
 #skills div.templateContainer svg,
 #skills div.templateContainer path {
   vertical-align: text-bottom;
@@ -318,14 +336,14 @@ body {
   margin-right: 10px;
 }
 
-/* line 241, ../scss/style.scss */
+/* line 256, ../scss/style.scss */
 #social {
   background-image: url("../../resources/images/Background Images/MeetingOverlay.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
-/* line 246, ../scss/style.scss */
+/* line 261, ../scss/style.scss */
 #social .row {
   position: relative;
   margin-left: 22%;
@@ -333,54 +351,54 @@ body {
   margin-bottom: 35px;
 }
 @media screen and (max-width: 1210px) {
-  /* line 246, ../scss/style.scss */
+  /* line 261, ../scss/style.scss */
   #social .row {
     margin-left: 12%;
     margin-right: 15px;
   }
 }
 @media screen and (max-width: 999px) {
-  /* line 246, ../scss/style.scss */
+  /* line 261, ../scss/style.scss */
   #social .row {
     margin-left: 9%;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 246, ../scss/style.scss */
+  /* line 261, ../scss/style.scss */
   #social .row {
     margin-left: auto;
     margin-right: auto;
   }
 }
-/* line 263, ../scss/style.scss */
+/* line 278, ../scss/style.scss */
 #social h2 {
   color: #30c6cf;
   border-color: #30c6cf;
 }
-/* line 268, ../scss/style.scss */
+/* line 283, ../scss/style.scss */
 #social div.templateContainer li {
   min-height: 225px;
   margin-bottom: 55px;
 }
-/* line 271, ../scss/style.scss */
+/* line 286, ../scss/style.scss */
 #social div.templateContainer li p {
   text-align: left;
   margin-top: 72px;
   max-width: 350px;
 }
 @media screen and (max-width: 768px) {
-  /* line 271, ../scss/style.scss */
+  /* line 286, ../scss/style.scss */
   #social div.templateContainer li p {
     max-width: none;
   }
 }
-/* line 279, ../scss/style.scss */
+/* line 294, ../scss/style.scss */
 #social div.templateContainer li a {
   font-weight: bold;
   cursor: pointer;
 }
 @media screen and (max-width: 768px) {
-  /* line 268, ../scss/style.scss */
+  /* line 283, ../scss/style.scss */
   #social div.templateContainer li {
     min-height: 0px;
     max-width: 420px;
@@ -388,30 +406,30 @@ body {
     margin-right: auto;
   }
 }
-/* line 290, ../scss/style.scss */
+/* line 305, ../scss/style.scss */
 #social div.templateContainer img {
   vertical-align: middle;
   float: left !important;
   padding-right: 15px !important;
 }
 
-/* line 299, ../scss/style.scss */
+/* line 314, ../scss/style.scss */
 #projects h2 {
   color: #28b54c;
   border-color: #28b54c;
 }
-/* line 303, ../scss/style.scss */
+/* line 318, ../scss/style.scss */
 #projects .carouselContainer {
   width: 930px;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 308, ../scss/style.scss */
+/* line 323, ../scss/style.scss */
 #projects .innerCarousel {
   width: 930px;
   overflow: hidden;
 }
-/* line 311, ../scss/style.scss */
+/* line 326, ../scss/style.scss */
 #projects .innerCarousel ul {
   position: relative;
   list-style-type: none;
@@ -420,7 +438,7 @@ body {
   width: 9999px;
   padding-bottom: 10px;
 }
-/* line 320, ../scss/style.scss */
+/* line 335, ../scss/style.scss */
 #projects .carouselItems {
   float: left;
   width: 300px;
@@ -433,14 +451,14 @@ body {
   margin-right: 5px;
 }
 
-/* line 332, ../scss/style.scss */
+/* line 347, ../scss/style.scss */
 #contact {
   background-image: url("../../resources/images/Background Images/WorkingAtComputerOverlay.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
-/* line 337, ../scss/style.scss */
+/* line 352, ../scss/style.scss */
 #contact h2 {
   color: #bf963d;
   border-color: #bf963d;
